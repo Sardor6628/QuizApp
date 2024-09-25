@@ -52,8 +52,8 @@ dependencies {
 }
 sonarqube {
     properties {
-        property "sonar.projectName", "quiz-app-kotlin"
-        property "sonar.projectKey", "quiz-app-kotlin"
+        property "sonar.projectName", "quiz-app-java"
+        property "sonar.projectKey", "quiz-app-java"
         property "sonar.tests", ["src/test/java"]
         property "sonar.test.inclusions", "**/*Test*/**"
         property "sonar.sourceEncoding", "UTF-8"
